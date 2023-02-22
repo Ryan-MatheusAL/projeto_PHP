@@ -1,0 +1,132 @@
+/*index inicio*/
+body{
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+}
+.dp-menu ul{
+        list-style-type: none;
+        padding: 0;
+        background-color: #2F4F4F;
+}
+.dp-menu ul li{
+    display: inline;
+    position: relative;
+}
+.dp-menu ul li a{
+    display: inline-block;
+    color: #40E0D0;
+    text-decoration: none;
+    padding: 10px;
+    transition: background .3s;
+}
+.dp-menu ul li a:hover{
+    background-color: #F8F8FF;
+}
+.dp-menu ul ul{
+    display: none;
+    position: absolute;
+}
+.dp-menu ul ul{
+    width: 150px;
+    left: 0;
+}
+.dp-menu ul li:hover ul{
+    display: block;
+}
+.dp-menu ul ul li a{
+    display: block;
+}
+.dp-menu ul li:hover ul{
+    display: block;
+}
+/*index fim*/
+/*Inicio cadastar*/
+.da-fu{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border-radius: 15px;
+    color: rgb(78, 179, 247);
+}
+.container{
+    display: inline-block;
+    font-size: larger;
+    margin-right: 3%;
+    margin-left: 3%;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+    
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5px;
+
+}
+fieldset{
+    border: 3px solid dodgerblue;
+}
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    color: white;
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#civil{
+
+    color: rgb(243, 145, 145);
+}
+#submit{
+    background-image: linear-gradient(to right, rgb(243, 145, 145), rgb(127, 59, 236));
+    width: 25%;
+    height: auto;
+    border: none;
+    padding: 0px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 70%;
+}
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(233, 135, 135), rgb(117, 49, 226));
+}
+/*Fim cadastar*/
+/*Fim cadastar*/
+.table-bg{
+    background: rgba(0, 0, 0, 0.6);
+}
